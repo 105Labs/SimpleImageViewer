@@ -2,7 +2,7 @@ import UIKit
 import AVFoundation
 
 public final class ImageViewerController: UIViewController {
-    @IBOutlet var scrollView: UIScrollView!
+    @IBOutlet public var scrollView: UIScrollView!
     @IBOutlet fileprivate var imageView: UIImageView!
     @IBOutlet fileprivate var activityIndicator: UIActivityIndicatorView!
     
